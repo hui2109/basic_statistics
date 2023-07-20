@@ -58,7 +58,7 @@ def preprocess():
 
 
 if __name__ == '__main__':
-    with open('./answers.txt', 'r', 1, 'utf-8') as f:
+    with open('../../aresources/my_data/answers.txt', 'r', 1, 'utf-8') as f:
         answers = f.read().replace('\n', '')
 
     stat = preprocess()
