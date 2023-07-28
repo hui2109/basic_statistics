@@ -14,7 +14,7 @@ yerr = np.vstack((auc_values - lower_limits, upper_limits - auc_values))
 plt.errorbar(x, auc_values, yerr=yerr, fmt='o', capsize=3)
 
 # 绘制折线图
-plt.plot(x, auc_values, marker='o')
+# plt.plot(x, auc_values, marker='o')
 
 # 设置图形标题和坐标轴标签
 plt.title('AUC with Confidence Intervals')
